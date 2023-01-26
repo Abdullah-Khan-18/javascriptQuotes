@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@400;700&family=Jost:wght@400;500&family=Marck+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+  }
+  body {
+    width: 100vw;
+    height: 50vw;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+  }
+  .container {
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: rgb(245, 244, 244);
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    border-radius: 20px 20px;
+    position: relative;
+  }
+
+  .quotes {
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    display: flexbox;
+    color:black;
+  }
+
+  .author {
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: right;
+    display: flexbox;
+    color:black;
+  }
+
+  .newQ {
+    position:absolute;
+    background: #f8b627;
+    color: beige;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 7px;
+    bottom: top;
+    -ms-transform: translateX(150%); 
+    transform: translateX(150%);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
